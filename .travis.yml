@@ -21,6 +21,8 @@ before_install:
   - echo ${version}
   - echo ${tag}
 
+  
+
 # before_install: 
 #   - docker build --build-arg citydb_version=${version} -t tumgis/3dcitydb-postgis:${version} ./${version}
 #   - docker build --build-arg citydb_version=${version} -t tumgis/3dcitydb-postgis:${version}-alpine ./${version}/alpine
